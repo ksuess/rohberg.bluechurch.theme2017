@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layers>
+  <layer
+      name="rohberg.bluechurch.theme2017"
+      interface="rohberg.bluechurch.theme2017.interfaces.IRohbergBluechurchTheme2017Layer"
+      />
+</layers>
