@@ -51,8 +51,9 @@ module.exports = function (grunt) {
             html: {
                 bsFiles: {
                     src : [
-                      'less/*.less',
-                      'barceloneta/less/*.less'
+                        'less/*.less',
+                        'barceloneta/less/*.less',
+                        '*.html'
                     ]
                 },
                 options: {
@@ -68,13 +69,15 @@ module.exports = function (grunt) {
                 bsFiles: {
                     src : [
                       'less/*.less',
-                      'barceloneta/less/*.less'
+                      'barceloneta/less/*.less',
+                      '*.html',
+                      '*.xml'
                     ]
                 },
                 options: {
                     watchTask: true,
                     debugInfo: true,
-                    proxy: "localhost:8080",
+                    proxy: "localhost:10680",
                     reloadDelay: 3000,
                     // reloadDebounce: 2000,
                     online: true
